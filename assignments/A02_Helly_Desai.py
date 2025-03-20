@@ -51,8 +51,6 @@ ax = plt.subplot()
 ax.set_title('Graph', fontsize=12)
 nx.draw(G, pos, node_size=1500, with_labels=True, node_color= 'red', font_size=10, font_color='white')
 
-
-
 #draw the graph
 plt.tight_layout()
 
